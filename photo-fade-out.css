@@ -1,0 +1,43 @@
+body {
+	max-width: 100%;
+	position: relative;
+}
+img {
+	top: 0;
+	left: 0px;
+    position: absolute;
+	width: 100%;
+	max-width: 100%;
+}
+.container {
+	max-width: 100%;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	position: relative;
+}
+.slider {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	left: 50%;
+	width: 1px;
+	height: 100%;
+}
+.sliderIn {
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	left: -32px;
+	top: 45%;
+	width: 64px;
+	height: 64px;
+	background: url('scroll.png');
+}
+.img1 {
+	z-index: 5;
+}
+.img2 {
+	position: static;
+}
